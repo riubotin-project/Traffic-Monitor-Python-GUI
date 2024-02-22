@@ -4,19 +4,10 @@ container:
   properties: {html: '@theme:standard-page.html'}
 components:
 - type: ColumnPanel
-  properties: {col_widths: '{}'}
+  properties: {}
   name: content_panel
   layout_properties: {slot: default}
-  components: []
 - type: FlowPanel
   properties: {}
   name: navbar_links
   layout_properties: {slot: nav-right}
-- name: column_panel_1
-  properties: {visible: true}
-  type: ColumnPanel
-  layout_properties: {slot: left-nav}
-- name: label_1
-  properties: {bold: true, text: PCN TRAFFIC MONITOR}
-  type: Label
-  layout_properties: {slot: title}
